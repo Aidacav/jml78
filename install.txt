@@ -1,0 +1,7 @@
+Para volver a instalar en el repositorio de CDMON la carpeta de jml78 completa, habría que hacer lo siguiente:
+Iniciamos ssh, y navegamos hasta el directorio llamado web o el que queramos, pero mejor ese para tenerlo
+todo lo de web en el mismo sitio e iniciamos git con git init.
+Tener en cuenta que si ya existe un repositorio jml78 tendríamos que cambiarle el nombre al existente para que no nos diera error.
+Una vez hecho esto, git add jml78, git commit -m “comiteamos la carpeta jml78”, git add conexion https://github/Aidacav/jml78 y finalmente git pull conexion master
+Con esto quedaría restaurada la carpeta.
+
